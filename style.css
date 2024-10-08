@@ -51,3 +51,41 @@ p {
   font-weight: 500;
   font-size: 20px;
 }
+
+#start{
+  background-color: rgb(255, 187, 0);
+  padding: 150px 0 150px 0;
+}
+
+#start h1{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+#start h1 span{
+  font-size: 70px;
+  text-decoration: underline;
+  color: white;
+}
+
+.custom-shape-divider-bottom-1728407089 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1728407089 svg {
+  position: relative;
+  display: block;
+  width: calc(115% + 1.3px);
+  height: 146px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1728407089 .shape-fill {
+  fill: #FFFFFF;
+}
