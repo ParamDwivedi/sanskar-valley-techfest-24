@@ -56,25 +56,25 @@ p {
   font-size: 20px;
 }
 
-#start{
+#start {
   background-color: rgb(255, 187, 0);
   padding: 150px 0 150px 0;
 }
 
-#start h1{
+#start h1 {
   font-size: 50px;
   text-align: center;
   color: white;
 }
 
-#start h1 span{
+#start h1 span {
   position: relative;
   font-size: 70px;
   color: white;
 }
 
-#start h1 span::after{
-  content: '';
+#start h1 span::after {
+  content: "";
   position: absolute;
   width: 100%;
   border-top: solid 3px red;
@@ -83,6 +83,7 @@ p {
   border-radius: 50%;
   height: 10px;
 }
+
 .custom-shape-divider-bottom-1728486009 {
   position: absolute;
   bottom: 0;
@@ -101,5 +102,28 @@ p {
 }
 
 .custom-shape-divider-bottom-1728486009 .shape-fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
+}
+
+#second-part {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+
+.box {
+  margin: 0 10px;
+  border: 2px solid black;
+  border-radius: 50px;
+  flex: 1;
+  background-color: #f0f0f0;
+  padding-top: 10px;
+  position: relative;
+  overflow: hidden;
+  height: 325px;
+  transition: transform 0.3s ease;
+}
+
+.box p {
+  text-align: center;
 }
